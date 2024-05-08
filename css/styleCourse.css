@@ -1,0 +1,167 @@
+.courseSection::before {
+  content: "";
+  z-index: -1;
+  /* background: url("./images/bgtry (2).jpg") center center/cover no-repeat; */
+  height: 193.5%;
+  width: 100%;
+  opacity: 70%;
+  position: absolute;
+}
+
+.basicSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basicSection h2 {
+  margin-top: 6px;
+  padding: 5px 5px;
+}
+.basicSection p {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 9px;
+}
+
+.basicThumbnail {
+  padding: 10px 10px;
+  border-radius: 24px;
+}
+.basicSection button {
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.cbbtn:hover {
+  cursor: pointer;
+  width: 101px;
+  height: 31px;
+  background-color: black;
+  color: white;
+}
+.courseButton {
+  padding-left: 30%;
+  display: flex;
+}
+#cbbtn1 {
+  position: absolute;
+  margin-left: -180px;
+}
+#cbbtn2 {
+  position: absolute;
+  margin-left: 10.6%;
+}
+#cbbtn3 {
+  position: absolute;
+  margin-left: 35%;
+}
+/* ---------------------------------------------------------------- */
+.intermediateSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intermediateSection h2 {
+  margin-top: 40px;
+  padding: 5px 5px;
+}
+.intermediateSection p {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 9px;
+}
+.interThumbnail {
+  /* border: 2px solid black; */
+  padding: 10px 10px;
+  border-radius: 24px;
+}
+.intermediateSection button {
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.cibtn:hover {
+  cursor: pointer;
+  width: 101px;
+  height: 31px;
+  background-color: black;
+  color: white;
+}
+.courseButton {
+  padding-left: 30%;
+  display: flex;
+}
+#cibtn1 {
+  position: absolute;
+  margin-left: -180px;
+}
+#cibtn2 {
+  position: absolute;
+  margin-left: 10.6%;
+}
+#cibtn3 {
+  position: absolute;
+  margin-left: 35%;
+}
+/* -------------------------------------------------------------------------- */
+.advanceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.advanceSection h2 {
+  margin-top: 40px;
+  padding: 5px 5px;
+}
+.advanceSection p {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 9px;
+}
+.advThumbnail {
+  /* border: 2px solid black; */
+  padding: 10px 10px;
+  border-radius: 24px;
+}
+.advanceSection button {
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.cabtn:hover {
+  cursor: pointer;
+  width: 101px;
+  height: 31px;
+  background-color: black;
+  color: white;
+}
+.courseButton {
+  padding-left: 30%;
+  display: flex;
+}
+#cabtn1 {
+  position: absolute;
+  margin-left: -180px;
+}
+#cabtn2 {
+  position: absolute;
+  margin-left: 10.6%;
+}
+#cabtn3 {
+  position: absolute;
+  margin-left: 35%;
+}
+/* ------------------------------------------------------------------------- */
+.courseFooter {
+  margin-top: 45px;
+}

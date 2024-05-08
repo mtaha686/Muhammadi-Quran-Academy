@@ -1,0 +1,147 @@
+.guideSection::before {
+  content: "";
+  z-index: -1;
+  /* background: url("./images/bgtry (2).jpg") center center/cover no-repeat; */
+  /* height: 221%; */
+  width: 100%;
+  opacity: 50%;
+  position: absolute;
+}
+
+.guideSection h2 {
+  margin-top: 6px;
+  padding: 5px 5px;
+}
+.guideSection p {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 9px;
+}
+
+/* ------------------------------------ */
+.application {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37%;
+}
+
+.appImg {
+  width: 150px;
+  height: 150px;
+  padding: 15px 15px;
+  align-items: baseline;
+}
+#zoom {
+  height: 140px;
+  width: 145px;
+}
+
+.appDesc {
+  font-size: 45px;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: white;
+  padding: 2px 2px;
+  border-radius: 5px;
+  color: black;
+}
+
+#zoomName {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -112px;
+  opacity: 0%;
+}
+#skypeName {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -112px;
+  opacity: 0%;
+}
+#meetName {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -112px;
+  opacity: 0%;
+}
+#teamName {
+  position: absolute;
+  margin-left: 570px;
+  margin-top: -112px;
+  opacity: 0%;
+}
+/* -------------------------------------------------------- */
+.instruction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instruction ol {
+  position: absolute;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: -512px;
+}
+.instruction ol li {
+  padding: 3px 3px;
+}
+#guideVid {
+  margin-left: 785px;
+  height: 420px;
+  width: 400px;
+  margin-top: -78px;
+}
+/* ---------------------------------------------- */
+
+.timeTable h2 {
+  margin-top: 6px;
+  padding: 5px 5px;
+}
+.timeTable p {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 9px;
+}
+.timeTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  position: absolute;
+  width: 50%;
+}
+th,
+td {
+  padding: 4px 4px;
+}
+.feeChart1 table {
+  margin-left: -25%;
+}
+.feeChart2 table {
+  margin-left: 25%;
+  margin-top: 165px;
+}
+.feeChart3 table {
+  margin-left: 25%;
+  margin-top: 330px;
+}
+table:hover {
+  background-color: rgb(185, 185, 185);
+  opacity: 90%;
+  border: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}

@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.Headers {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 150px;
+  width: 100%;
+  /* border: 2px solid rebeccapurple; */
+  /* background: url("quran_basic (1).jpg")no-repeat center center/cover; */
+  text-align: center;
+}
+.Headers::before {
+  background: url("./images/quran_basic (1).jpg") no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  z-index: -10;
+  opacity: 70%;
+}
+.Headers img {
+  height: 100px;
+  width: 130px;
+  margin-left: 10px;
+}
+.Headers h1 {
+  margin-left: 300px;
+  color: black;
+  font-style: bold;
+}
+.Headers p {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: -250px;
+  font-style: italic;
+}
+.navbar {
+  /* border: 2px solid red; */
+  margin-top: 2px;
+  padding: 10px 10px;
+  background-color: rgb(240, 183, 97);
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 25px 25px;
+  font-style: bold;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+.navbar li a.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.homeBody::before {
+  z-index: -8;
+  background: url("./images/bgtry (2).jpg") center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  opacity: 95%;
+  position: absolute;
+  content: "";
+}
+
+.introduction {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+  height: 70%;
+}
+
+.frame1 {
+  margin-top: -25px;
+  height: 200px;
+  width: 200px;
+  margin-left: 40%;
+}
+
+.introduction p {
+  font-size: large;
+  position: absolute;
+  text-justify: center;
+  margin-left: 5%;
+  margin-top: 140px;
+  text-align: center;
+  width: 90%;
+}
+
+.multimedia {
+  /* border: 2px solid red; */
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  height: 900px;
+  width: 500px;
+  margin-top: -215px;
+  z-index: -1;
+  /* display: none; */
+}
+
+#search {
+  position: absolute;
+  margin: auto;
+  margin-left: 300px;
+  float: right;
+  margin-top: -1px;
+}
+
+#search input {
+  border: 2px solid black;
+  height: 25px;
+  border-radius: 9px;
+}
+
+/* ------------------------------------------------------------------ */
+.upperAdm::before {
+  background: url("./images/admbg1.jpg") center center/cover no-repeat;
+  content: "";
+  position: absolute;
+  height: 112.1%;
+  width: 100%;
+  z-index: -11;
+  opacity: 55%;
+  margin-top: -282px;
+  margin-bottom: 18px;
+}
+.admission {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -8;
+}
+.admission h1 {
+  margin-top: -285px;
+}
+.admission p {
+  width: 90%;
+  margin-top: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.longbox {
+  width: 550px;
+  height: 30px;
+  border-radius: 9px;
+}
+.admission button {
+  width: 250px;
+  margin-left: 27%;
+  padding: 10px 10px;
+  border-radius: 9px;
+}
+.admission button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.smallbox {
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 9px;
+}
+.admission select {
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 9px;
+  height: 30px;
+}
+
+/* ----------------------------------------------------------- */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.text-container {
+  flex: 1 1 auto;
+  margin-right: 20px;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 24px;
+}
+
+.contact-info {
+  flex: 1 1 auto;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.social-links {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}

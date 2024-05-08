@@ -1,0 +1,188 @@
+body::before {
+  content: "";
+  z-index: -10;
+  /* background: url("./images/bgtry (2).jpg") center center/cover no-repeat; */
+  height: 299.1%;
+  width: 100%;
+  opacity: 70%;
+  position: absolute;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutSection h2 {
+  padding: 12px 0px;
+}
+.aboutIntro {
+  display: flex;
+  padding: 10px 10px;
+}
+.companyImg {
+  height: 300px;
+  width: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.companyIntro {
+  height: 280px;
+  width: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.aboutHead {
+  padding: 10px 10px;
+}
+.aboutIntro p {
+  padding: 10px 10px;
+}
+.hello {
+  padding: 12px 12px;
+}
+.ais {
+  padding: 20px 30px;
+}
+.detail {
+  width: 90%;
+  text-align: center;
+}
+
+.missionSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: -59%;
+  margin-top: 37px;
+}
+.missionImg {
+  height: 130px;
+  width: 130px;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+.missionDesc {
+  /* border: 2px solid black; */
+  display: flex;
+  /* width: 30%; */
+}
+.realMission {
+  padding: 5px 5px;
+  margin-top: -29.5%;
+  margin-left: -24%;
+  /* border: 2px solid black; */
+  height: 130px;
+  position: absolute;
+  width: 60%;
+}
+
+.Accomplishment {
+  padding: 5px 5px;
+  margin-top: -19.5%;
+  margin-left: -24%;
+  /* border: 2px solid black; */
+  height: 130px;
+  position: absolute;
+  width: 60%;
+}
+
+.Social_Work {
+  width: 60%;
+  padding: 5px 5px;
+  margin-top: -9%;
+  margin-left: -24%;
+  /* border: 2px solid black; */
+  height: 130px;
+  position: absolute;
+}
+
+/* --------------------------------------- */
+.ourTutorSection p {
+  width: 90%;
+  text-align: center;
+}
+.ourTutorSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 5px;
+}
+.imgTutors {
+  height: 250px;
+  width: 250px;
+  margin: 15px 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.tutorDesc {
+  display: flex;
+}
+.tutorDetail {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tutor1 {
+  margin-top: -14px;
+  margin-left: 216px;
+}
+
+#tutor2 {
+  margin-top: -91px;
+  margin-left: 512px;
+}
+#tutor3 {
+  margin-top: -91px;
+  margin-left: 809px;
+}
+/* ------------------------------------------------- */
+.statistic {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.stat {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 14px 24px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statDesc {
+  padding-bottom: 20px;
+}
+#stud {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -270px;
+}
+#tut {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -110px;
+}
+#grad {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 28px;
+}
+#cont {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 178px;
+}
+/* ------------------------------- */
+
+/* Counting of Numbers */
+
+/* ----------------------------------------- */
+.aboutFooter {
+  margin-top: 30px;
+}
