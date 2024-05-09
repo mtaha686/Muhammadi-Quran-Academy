@@ -13,13 +13,13 @@
     <!-- ------------------------------------ -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styleCourse.css" />
-    <title>MuhammadiaQuranAcademy</title>
+    <title>MuhammadiQuranAcademy</title>
   </head>
 
   <body>
     <div class="Headers">
       <img src="./images/logo.png" alt="Online Quran Academy" />
-      <h1>Muhammadia Quran Academy</h1>
+      <h1>Muhammadi Quran Academy</h1>
       <p>Quran to Recite</p>
     </div>
     <nav class="navbar">
@@ -183,11 +183,11 @@
           </div>
           <div class="contact-info">
             <p class="copyright">
-              Copyright © 2022 Muhammadia Quran Academy. All rights reserved.
+              Copyright © 2022 Muhammadi Quran Academy. All rights reserved.
             </p>
             <p class="address">1009 Vía Sorella, Diamond Town, CA 91789</p>
             <p class="phone">+1 (909) 595 2401 | +1 (909) 594 1472</p>
-            <p class="email">info@muhammadiaquranacademy.com</p>
+            <p class="email">info@muhammadiquranacademy.com</p>
           </div>
           <div class="social-links">
             <a href="#" target="_blank"

@@ -72,14 +72,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="robot" content="index, follow">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Edu+TAS+Beginner&family=Inconsolata:wght@600&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>MuhammadiaQuranAcademy</title>
+    <title>MuhammadiQuranAcademy</title>
 </head>
 
 <body>
     <div class="Headers">
         <img src="./images/logo.png" alt="Online Quran Academy">
         <h1>
-            Muhammadia Quran Academy
+            Muhammadi Quran Academy
         </h1>
         <p>
             Quran to Recite
@@ -245,10 +245,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h1 class="brand-name">QURAN ACADEMY</h1>
         </div>
         <div class="contact-info">
-            <p class="copyright">Copyright © 2022 Muhammadia Quran Academy. All rights reserved.</p>
+            <p class="copyright">Copyright © 2022 Muhammadi Quran Academy. All rights reserved.</p>
             <p class="address">1009 Vía Sorella, Diamond Town, CA 91789</p>
             <p class="phone">+1 (909) 595 2401 | +1 (909) 594 1472</p>
-            <p class="email">info@muhammadiaquranacademy.com</p>
+            <p class="email">info@muhammadiquranacademy.com</p>
         </div>
         <div class="social-links">
             <a href="#" target="_blank"><img class="social-icon" src="./images/social (1).png" alt="Instagram"></a>
