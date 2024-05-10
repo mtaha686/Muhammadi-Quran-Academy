@@ -38,9 +38,6 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`username`, `password`) VALUES
 ('admin', 'admin'),
-('cromer', 'golden686'),
-('mtm', 'mtm'),
-('taha', 'golden686'),
 ('admin1', 'admin1');
 COMMIT;
 
